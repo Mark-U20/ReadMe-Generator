@@ -43,7 +43,7 @@ function renderLicenseSection(license) {
   console.log(renderLicenseBadge(license));
   console.log(renderLicenseLink(license));
   console.log(license);
-  return `## License\n
+  return `
   ${renderLicenseBadge(license)}\n
   ${renderLicenseLink(license)}\n`
 }
