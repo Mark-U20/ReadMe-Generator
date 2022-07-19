@@ -59,7 +59,7 @@ export function generateMarkdown(answers) {
 - [License](#license)\n
 - [Badges](#badges)\n
 - [Features](#features)\n
-- [Contributing](#contributing)\n
+- [Contributing](#how-to-contribute)\n
 - [Tests](#tests)\n
 - [Questions](#questions)\n\n
     `;
