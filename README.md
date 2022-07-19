@@ -29,6 +29,7 @@
     -Clone github repository
 -Add repo to your PATH
 -Install npx to execute package from your project terminal
+https://drive.google.com/file/d/1pPBr9Q5ZekS27JKXZfjktjVdQRzfL6FA/view
 ## Usage
     You would use this to quickly create a ReadMe for your project.
 ## Credits
