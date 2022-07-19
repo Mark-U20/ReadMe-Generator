@@ -15,9 +15,9 @@ const questions = [{
     name: 'path',
     message: 'Where would you like to save the README file?',
     rootPath: chosenDirectory,
-    excludePath: nodePath => nodePath.startsWith('node_modules'),
-    // excludeFilter: nodePath => nodePath == '.',
-    excludePath: "node_modules",
+    excludePath: nodePath => nodePath.startsWith('\node_modules'),
+    excludeFilter: nodePath => nodePath == '.',
+    // excludePath: "node_modules",
     itemType: "directory",
     suggestAppend: true,
     suggestPrepend: true,
@@ -27,7 +27,7 @@ const questions = [{
     suggestFiles: false,
     suggestDirectories: true,
     suggestRelativePath: true,
-    depthLimit: 3,
+    depthLimit: 1,
     suggestOnly: true,
     validate: function (value) {
         if (value.length) {
@@ -85,7 +85,7 @@ const questions = [{
 },
 {
     type: "input",
-    name: "Contributing",
+    name: "contributing",
     message: "Please include how to contribute to your project"
 
 },
@@ -97,7 +97,7 @@ const questions = [{
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName + ".md", generateMarkdown(data), function (err) {
+    fs.writeFile(fileName, generateMarkdown(data), function (err) {
         if (err) {
             console.log("Error writing file ", err);
             throw err;
