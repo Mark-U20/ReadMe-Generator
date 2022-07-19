@@ -53,15 +53,15 @@ export function generateMarkdown(answers) {
 
   if (answers.tableOfContents === "y") {
     answers.tableOfContents = `
-    - [Installation](#installation)\n
-    - [Usage](#usage)\n
-    - [Credits](#credits)\n
-    - [License](#license)\n
-    - [Badges](#badges)\n
-    - [Features](#features)\n
-    - [Contributing](#contributing)\n
-    - [Tests](#tests)\n
-    - [Table of Contents](#tableofcontents)\n\n
+- [Installation](#installation)\n
+- [Usage](#usage)\n
+- [Credits](#credits)\n
+- [License](#license)\n
+- [Badges](#badges)\n
+- [Features](#features)\n
+- [Contributing](#contributing)\n
+- [Tests](#tests)\n
+- [Table of Contents](#tableofcontents)\n\n
     `;
   }
   else {
@@ -70,24 +70,24 @@ export function generateMarkdown(answers) {
 
 
   return `# ${answers.title}
-    ## Description
+## Description
     ${answers.description}
     ${answers.tableOfContents}
-    ## Installation
+## Installation
     ${answers.installation}
-    ## Usage
+## Usage
     ${answers.usage}
-    ## Credits
+## Credits
     ${answers.credits}
-    ## License
+## License
     ${renderLicenseSection(answers.license)}
-    ## Badges
+## Badges
     ${answers.badges}
-    ## Features
+## Features
     ${answers.features}
-    ## How to contribute
+## How to contribute
     ${answers.contributing}
-    ## Tests
+## Tests
     ${answers.tests}
 
 
