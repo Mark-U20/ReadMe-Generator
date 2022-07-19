@@ -61,7 +61,7 @@ export function generateMarkdown(answers) {
 - [Features](#features)\n
 - [Contributing](#contributing)\n
 - [Tests](#tests)\n
-- [Table of Contents](#tableofcontents)\n\n
+- [Questions](#questions)\n\n
     `;
   }
   else {
@@ -89,6 +89,9 @@ export function generateMarkdown(answers) {
     ${answers.contributing}
 ## Tests
     ${answers.tests}
+## Questions
+    Github Profile: https://github.com/${answers.github}
+    Email: ${answers.email}
 
 
 
