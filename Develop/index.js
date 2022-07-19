@@ -39,7 +39,8 @@ const questions = [{
 {
     type: "input",
     name: "title",
-    message: "What is the title of your project?"
+    message: "What is the title of your project?",
+    default: "README",
 },
 {
     type: "input",

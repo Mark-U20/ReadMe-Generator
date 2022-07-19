@@ -53,7 +53,6 @@ export function generateMarkdown(answers) {
 
   if (answers.tableOfContents === "y") {
     answers.tableOfContents = `
-    ## Table of Contents\n\n
     - [Installation](#installation)\n
     - [Usage](#usage)\n
     - [Credits](#credits)\n

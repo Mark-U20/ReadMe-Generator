@@ -1,6 +1,6 @@
-# qeqweqweqweqeqeweqeqe
+# README Generator
     ## Description
-    qwdfgh
+    This project allows users to easily create a professional ReadMe for their repository projects.
     
     ## Table of Contents
 
@@ -26,12 +26,14 @@
 
     
     ## Installation
-    
+    -Clone github repository
+-Add repo to your PATH
+-Install npx to execute package from your project terminal
     ## Usage
-    
+    You would use this to quickly create a ReadMe for your project.
+
     ## Credits
-    
-    ## License
+    Author: Mark Ustby
     ## License
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -41,9 +43,9 @@
     ## Badges
     
     ## Features
-    
+    Uses Fuzzy-Path to search your local directories and allow you to choose where to place the ReadMe
     ## How to contribute
-    undefined
+    Follow common practice code style guidelines found here: https://ckeditor.com/docs/ckeditor5/latest/framework/guides/contributing/code-style.html
     ## Tests
     
 
