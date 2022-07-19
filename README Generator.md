@@ -6,23 +6,23 @@
 ## Table of Contents
 
 
-    - [Installation](#installation)
+   - [Installation](#installation)
 
-    - [Usage](#usage)
+   - [Usage](#usage)
 
-    - [Credits](#credits)
+   - [Credits](#credits)
 
-    - [License](#license)
+   - [License](#license)
 
-    - [Badges](#badges)
+   - [Badges](#badges)
 
-    - [Features](#features)
+   - [Features](#features)
 
-    - [Contributing](#contributing)
+   - [Contributing](#contributing)
 
-    - [Tests](#tests)
+   - [Tests](#tests)
 
-    - [Table of Contents](#tableofcontents)
+   - [Table of Contents](#tableofcontents)
 
 
 ## Installation
