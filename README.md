@@ -33,7 +33,7 @@ https://drive.google.com/file/d/1pPBr9Q5ZekS27JKXZfjktjVdQRzfL6FA/view
 ## Usage
     You would use this to quickly create a ReadMe for your project.
 ## Credits
-    Author: Mark Ustby
+    
 ## License
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
